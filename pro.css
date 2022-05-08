@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#navbar{
+    position: relative;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+
+}
+
+#logo{
+    margin: 10px 34px;
+}
+ul{
+    display: flex;
+    border-radius: 20px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+#navbar,ul,li{
+    list-style: none;
+    font-size: x-large;
+}
+li,a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+l
+li,a:hover{
+    color: black;
+    background-color: aqua;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-items: center;
+}
+#home::before{
+    content: "";
+    background-image: url("https://rs-menus-api.roocdn.com/images/76e2910d-6fd8-4de3-af85-5603f12717cb/image.jpeg?width=1200&height=630&auto=webp&format=jpg&fit=crop&v=");
+    position: absolute;
+    height: 90%;
+    width:100%;
+    margin-top: 0px;
+    z-index: -1;
+    opacity: 0.80;
+}
+.btn{
+    padding: 6px 20px;
+    border-radius: 15px;
+    color: aqua;
+    background-color: blue;
+    cursor: pointer;
+}
+.btn:hover{
+    color: red;
+
+}
